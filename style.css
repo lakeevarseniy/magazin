@@ -1,1 +1,142 @@
+body {
+    margin: 0;
+    padding: 0;
+}
 
+.menu-item {
+    position: relative;
+    white-space: nowrap;
+}
+
+.menu-top {
+    font: 16pt arial;
+    float: right;
+    margin-right: 235px;
+}
+
+.menu-top li {
+    display: inline-block;
+}
+
+.menu-top a {
+    display: inline-block;
+    color: black;
+    height: 50px;
+    padding: 20px 25px 0px;
+    width: 100%;
+}
+
+.menu-top .menu-item:hover {
+    background: #3ddbe0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+
+header {
+    height: 970px;
+    background-color: aquamarine;
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+.title {
+    font-size: 45px;
+    line-height: 48px;
+    font-weight: 700;
+    color: black;
+    text-align: center;
+    width: 906px;
+    margin: 239px auto 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.buttom {
+    margin: 54px auto;
+    width: 293px;
+    height: 70px;
+    background-color: orange;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.pokupki {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 78px;
+}
+
+.items-title {
+    font-size: 24px;
+    line-height: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    color: black;
+    margin-top: 186px;
+    text-align: center;
+}
+
+.pokupki section:not(:last-child) {
+    margin-right: 88px;
+}
+
+.pokupki section {
+    width: 197px;
+}
+
+.pokupki p {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
+    letter-spacing: 0.02em;
+    color: black;
+    text-align: center;
+}
+
+.moloko {
+    background: url(https://png.pngtree.com/element_our/20190530/ourlarge/pngtree-three-dimensional-cow-pattern-milk-image_1248458.jpg) center top / 185px no-repeat;
+}
+
+.hleb {
+    background: url(https://iceberg31.ru/upload/iblock/a50/a50dc180b7f86f60f8ec59598e1c496d.png) center top / 185px no-repeat;
+}
+
+.kola {
+    background: url(https://s.alicdn.com/@sc01/kf/U8dc3049e4d824f16ab3e985c3668095fg.jpg) center top / 185px no-repeat;
+}
+
+.shokolad {
+    background: url(shokolad.jpg) center top / 185px no-repeat;
+}
